@@ -1,12 +1,11 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  margin: 0 ;
+  /* padding: ; */
+  /* text-align: center; */
 }
 
 .logo {
-  height: 6em;
+  height: 1em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -39,4 +38,22 @@
 
 .read-the-docs {
   color: #888;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.sidebar{
+  height: 100vh;
+  background-color: #eee;
+}
+
+.sidebar ul li{
+  margin: 0;
+  padding:10px 2px;
+}
+.sidebar li a{
+  text-decoration:none;
 }
