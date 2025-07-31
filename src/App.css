@@ -1,8 +1,11 @@
 #root {
   margin: 0 ;
-  /* padding: ; */
+  /* padding:0 ; */
   /* text-align: center; */
+  box-sizing: border-box;
 }
+
+
 
 .logo {
   height: 1em;
@@ -10,6 +13,8 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -44,7 +49,6 @@ ul {
   list-style: none;
 }
 
-
 .sidebar{
   height: 100vh;
   background-color: #eee;
@@ -56,4 +60,10 @@ ul {
 }
 .sidebar li a{
   text-decoration:none;
+}
+
+
+.table-striped tr{
+  width: 10px;
+  background-color: red;
 }
