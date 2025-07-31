@@ -4,10 +4,10 @@ import {Link} from "react-router-dom"
 function Sidebar(){
     return (
         <>
-            <ul>
+            <ul >
                 <li>
-                    <Link  to={'/products'}>get All Products</Link>
-                </li>
+                    <Link  to={'/Products'}>get All Products</Link>
+                </li>       
                 <li>
                     <a href="#">get All catteogries</a>
                 </li>
