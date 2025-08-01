@@ -6,7 +6,7 @@ function Sidebar(){
         <>
             <ul >
                 <li>
-                    <Link  to={'/Products'}>get All Products</Link>
+                    <Link  to={'/products'}>get All Products</Link>
                 </li>       
                 <li>
                     <a href="#">get All catteogries</a>
